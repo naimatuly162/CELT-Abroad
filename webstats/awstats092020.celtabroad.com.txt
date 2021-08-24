@@ -1,0 +1,702 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.celtabroad.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1997                
+POS_TIME 2673                
+POS_VISITOR 24787               
+POS_DAY 25917               
+POS_DOMAIN 3425                
+POS_LOGIN 3841                
+POS_ROBOT 3996                
+POS_WORMS 4712                
+POS_EMAILSENDER 4843                
+POS_EMAILRECEIVER 4986                
+POS_SESSION 26145               
+POS_SIDER 26320               
+POS_FILETYPES 5121                
+POS_DOWNLOADS 5355                
+POS_OS 5403                
+POS_BROWSER 5558                
+POS_SCREENSIZE 6039                
+POS_UNKNOWNREFERER 6113                
+POS_UNKNOWNREFERERBROWSER 6300                
+POS_ORIGIN 6482                
+POS_SEREFERRALS 6617                
+POS_PAGEREFS 6780                
+POS_SEARCHWORDS 6928                
+POS_KEYWORDS 7080                
+POS_MISC 2336                
+POS_ERRORS 7139                
+POS_CLUSTER 3697                
+POS_SIDER_404 7302                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200907034956 1970 539954 0
+FirstTime 20200901062742
+LastTime 20200907032210
+LastUpdate 20200907042519 1970 1519 447 0 4
+TotalVisits 33                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 42 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 1019004 6 11 76165
+1 0 0 0 6 14 111784
+2 3 3 253826 41 48 412368
+3 18 44 5864965 25 93 1200559
+4 11 56 6866149 9 116 1551226
+5 15 73 9716523 10 106 1471362
+6 7 7 67564 7 11 374462
+7 1 1 119552 6 9 80179
+8 0 0 0 12 18 131919
+9 12 12 150875 7 10 92888
+10 1 1 119560 6 10 1228286
+11 2 33 1708389 48 65 303898
+12 25 85 12052630 18 209 5284797
+13 6 6 642 10 15 81426
+14 0 0 0 6 12 45762
+15 2 2 29268 13 17 139170
+16 5 29 3694763 311 342 739665
+17 2 2 26048 360 370 215014
+18 2 2 239681 20 25 244274
+19 2 21 1534034 10 24 1005071
+20 1 1 120028 16 28 387587
+21 0 0 0 8 18 119492
+22 0 0 0 7 17 987906
+23 8 8 102137 8 18 135836
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+in 62 231 32532884
+de 14 14 150875
+us 12 31 2304046
+jp 7 7 102137
+az 7 62 5403152
+eu 7 7 67564
+bj 6 6 642
+bg 4 24 1836478
+it 3 3 899473
+ie 1 1 120028
+cn 1 1 14673
+nl 1 1 14595
+fr 1 1 119560
+gb 1 1 119531
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+MJ12bot/ 412 371385 20200906171931 11
+YandexBot/ 76 633998 20200907032044 27
+Googlebot/ 74 4676986 20200906225306 5
+SemrushBot/ 50 350649 20200907034956 20
+Googlebot\-Image/ 24 665971 20200905130122 0
+AhrefsBot/ 12 102380 20200907032849 5
+googlebot 5 45536 20200902063443 1
+python 3 82885 20200906182922 0
+bingbot/ 3 165 20200906144048 3
+facebookexternalhit/ 3 41131 20200906180326 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 176 20200905151009 0
+DotBot/ 1 24 20200906035058 1
+googlebot\-image 1 13413 20200901000424 0
+bot[\s_+:,\.\;\/\\-] 2 80 20200902020136 2
+unknown 1 55 20200905035118 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 11 891823 0 0
+png 117 3257627 0 0
+woff2 12 851348 0 0
+php 6 642 0 0
+html 63 2693107 0 0
+jpg 64 4625194 0 0
+js 61 29276739 0 0
+Unknown 46 2057158 0 0
+gif 10 32000 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 90 15
+winlong 7 7
+winnt 1 1
+win8 8 8
+Unknown 5 5
+win10 243 75
+linux 33 13
+win7 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+firefox28.0 7 7
+chrome59.0.3071.115 8 8
+chrome80.0.3987.122 1 1
+firefox72.0 1 1
+chrome79.0.3945.79 4 4
+chrome76.0.3809.100 1 1
+chrome27.0.1500.55 6 6
+chrome80.0.3987.149 1 1
+chrome64.0.3282.167 1 1
+chrome84.0.4147.135 236 64
+netscape5.0 1 1
+chrome78.0.3904.70 3 3
+chrome34.0.1847.116 7 7
+firefox80.0 24 4
+chrome40.0.2214.85 2 2
+chrome85.0.4183.83 56 5
+chrome84.0.4147.105 22 2
+Unknown 5 5
+chrome67.0.3396.62 3 3
+firefox16.0.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+python-requests/2.22.0 20200901171510
+axios/0.19.2 20200904180614
+Go-http-client/1.1 20200905153501
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+python-requests/2.22.0 20200901171510
+axios/0.19.2 20200904180614
+Go-http-client/1.1 20200905153501
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 77 78
+From1 0 0
+From2 1 1
+From3 0 0
+From4 49 311
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 470 7616999
+302 16 5839
+444 6 0
+500 12 1330959
+405 6 3584
+301 2 489
+404 382 478392
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 335
+/lisans-tasar%C4%B1mda-200 1 -
+/mba-uluslararas%C4%B1-ticaret-318 1 -
+/tasar%C4%B1m-%C3%BCzere-y%C3%BCksek-lisans-273 1 -
+/lisans-kamu-y%C3%B6netimi-206 1 -
+/azerbaycan-yaz-kamp%C4%B1-243 1 -
+/mba-de%C4%9Ferli-menkul-k%C4%B1ymetler-247 1 -
+/stratejik-y%C3%B6netim-y%C3%BCksek-lisans-program%C4%B1-309 1 -
+/ba-ileti%C5%9Fim-halkla-ili%C5%9Fkiler-65 1 -
+/uluslararas%C4%B1-yaz-okulu-80 1 -
+/ba-uluslararas%C4%B1-ili%C5%9Fkiler-67 1 -
+/bsc-psikoloji-ve-y%C3%B6netim-189 1 -
+/aa-uluslararas%C4%B1-ili%C5%9Fkiler-94 1 -
+/bilgisayar-bilimlerinde-y%C3%BCksek-lisans-275 1 -
+/d%C3%BCnya-ekonomisi-%C3%BCzere-y%C3%BCksek-lisans-284 1 -
+/xmlrpc.php 1 -
+/t%C3%BCketim-mallar%C4%B1-end%C3%BCstrisinde-teknoloji-ve-m%C3%BChendislik-%C3%BCzere-y%C3%BCksek-lisans-307 1 -
+/pazarlama-%C3%BCzere-y%C3%BCksek-lisans-302 1 -
+/aa-ilk%C3%B6%C4%9Fretim-84 1 -
+/mba-uluslararas%C4%B1-i%C5%9Fletme-259 1 -
+/msc-finansal-y%C3%B6netim-193 1 -
+/bba-i%C5%9Fletme-223 1 -
+/search 1 -
+/as-tar%C4%B1m-e%C4%9Fitimi-100 1 -
+/msc-uygulamal%C4%B1-matematik-63 1 -
+/ekoloji-%C3%BCzere-y%C3%BCksek-lisans-288 1 -
+/ba-uluslararas%C4%B1-i%C5%9Fletme-ekonomisi-154 1 -
+/yo%C4%9Fun-ingilizce-dil-kursu-150 1 -
+/yabanc%C4%B1-dil-frans%C4%B1zca-402 1 -
+/uni/pe%C3%A7-%C3%BCniversitesi-23 1 -
+/ba-hons-i%C5%9Fletme-y%C3%B6netimi-ve-uluslararas%C4%B1-i%C5%9Fletme-74 1 -
+/wp-login.php 3 -
+/enerji-y%C3%B6netimi-y%C3%BCksek-lisans-program%C4%B1-374 1 -
+/metalurji-%C3%BCretiminde-kullan%C4%B1lan-teknoloji-ve-ekipmanda-y%C3%BCksek-lisans-359 1 -
+/as-do%C4%9Fal-kaynak-biyolojisi-111 1 -
+/bsc-i%C5%9Fletme-enformati%C4%9Fi-38 1 -
+/msc-m%C3%BChendislik-y%C3%B6netimi-60 1 -
+/as-muhasebe-veya-i%C5%9Fletme-95 1 -
+/scholarship/images/owl-next.png 2 -
+/ba-ileti%C5%9Fim-ve-medya-bilimi-159 1 -
+/y%C3%B6netimde-y%C3%BCksek-lisans-290 1 -
+/teorik-radyo-tekni%C4%9Finde-y%C3%BCksek-lisans-372 1 -
+/lisans-t%C3%BCketici-mallar%C4%B1-uzmanl%C4%B1%C4%9F%C4%B1-ve-markas%C4%B1-205 1 -
+/mba-uluslararas%C4%B1-i%C5%9Fletme-246 1 -
+/bsc-y%C3%B6netim-ve-sanat-187 1 -
+/aas-y%C3%B6netici-asistan-118 1 -
+/msc-y%C3%B6netim-ve-liderlik-174 1 -
+/mba-insan-kaynaklar%C4%B1-y%C3%B6netimi-251 1 -
+/%C3%BCretim-ara%C3%A7lar%C4%B1n%C4%B1n-yenilenmesinde-y%C3%BCksek-lisans-352 2 -
+/license.txt 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 5 -
+/mba-uluslararas%C4%B1-pazarlama-320 1 -
+/ba-%C3%A7evre-tasar%C4%B1m%C4%B1-161 1 -
+/ads.txt 9 -
+/lisans-g%C4%B1da-%C3%BCr%C3%BCnleri-m%C3%BChendisli%C4%9Fi-199 1 -
+/y%C3%BCksek-lisans-ve-teknik-sistemlerde-bili%C5%9Fim-347 2 -
+/uluslararas%C4%B1-ili%C5%9Fkiler-y%C3%BCksek-lisans-program%C4%B1-281 1 -
+/finans-y%C3%BCksek-lisans-program%C4%B1-285 1 -
+/haz%C4%B1rl%C4%B1k-d%C3%B6nemi-sanat-programlar%C4%B1-180 1 -
+/otomasyon-s%C3%BCre%C3%A7lerinde-y%C3%BCksek-lisans-341 1 -
+/msc-sa%C4%9Fl%C4%B1k-ve-sosyal-hizmet-22 1 -
+/mba-e%C4%9Flence-ve-turizm-y%C3%B6netimi-322 1 -
+/yo%C4%9Fun-haz%C4%B1rl%C4%B1k-d%C3%B6nemi-147 1 -
+/mba-y%C3%B6netim-252 1 -
+/ingilizce-haz%C4%B1rl%C4%B1k-program%C4%B1-79 1 -
+/site.aspx 1 -
+/radyo-elektroni%C4%9Fi-tasar%C4%B1m%C4%B1nda-yap%C4%B1-ve-teknolojisinde-y%C3%BCksek-lisans-364 1 -
+/ekoloji-%C3%BCzere-y%C3%BCksek-lisans-271 1 -
+/i%C3%A7ten-yanmal%C4%B1-motorlarda-y%C3%BCksek-lisans-378 1 -
+/ba-y%C3%B6netim-ve-idari-171 1 -
+/wp-content/plugins/wp-file-manager/lib/files/MminHe.php 1 -
+/end%C3%BCstri-m%C3%BChendisli%C4%9Fi-ve-y%C3%B6netimi-y%C3%BCksek-lisans-program%C4%B1-280 1 -
+/ekoloji-alan%C4%B1nda-y%C3%BCksek-lisans-358 1 -
+/mba-de%C4%9Ferli-menkul-k%C4%B1ymetler-264 1 -
+/ba-i%C5%9Fletme-ve-i%C5%9Fletme-y%C3%B6netimi-153 1 -
+/msc-halk-sa%C4%9Fl%C4%B1%C4%9F%C4%B1-52 1 -
+/bsc-co%C4%9Frafya-337 1 -
+/veri-koruma-ve-organizasyon-teknolojileri-alan%C4%B1nda-y%C3%BCksek-lisans-342 1 -
+/ba-hons-i%C5%9Fletme-y%C3%B6netimi-73 1 -
+/msc-turizm-i%C5%9Fletmecili%C4%9Fi-178 1 -
+/istatistik-y%C3%BCksek-lisans-291 1 -
+/ba-film-ve-video-prod%C3%BCksiyonu-169 1 -
+/public/storage/institutions/hbkzYtOxujtg5bN39poWVQYXuv3LnVQArAZQw4l5.jpeg 1 -
+/otomotiv-alan%C4%B1nda-telematik-ve-ileti%C5%9Fimle-ilgili-genel-sorunlarda-y%C3%BCksek-lisans-351 1 -
+/genel-t%C4%B1p-245 1 -
+/ma-iktisat-y%C3%B6netmeli%C4%9Fi-237 1 -
+/ba-ileti%C5%9Fim-reklamc%C4%B1l%C4%B1k-ve-halkla-ili%C5%9Fkiler-102 1 -
+/aas-i%C5%9F-d%C3%BCnyas%C4%B1-119 1 -
+/ba%C2%A0animation-160 1 -
+/t%C3%BCrk-d%C3%BCnyas%C4%B1-tarihi-404 1 -
+/page/abd-burslar%C4%B1-2 1 -
+/locate/tur 1 -
+/ekonomi-%C3%BCzere-y%C3%BCksek-lisans-308 1 -
+/temel-t%C4%B1p-dersi-premedik-okul-145 1 -
+/ma-uluslararas%C4%B1-ekonomi-ve-i%C5%9Fletme-57 1 -
+/bsc-g%C4%B1da-m%C3%BChendisli%C4%9Fi-32 1 -
+/otomobillerde-y%C3%BCksek-lisans-384 1 -
+/ba-i%C5%9Fletme-y%C3%B6netimi-327 1 -
+/ba-uluslararas%C4%B1-ili%C5%9Fkiler-170 1 -
+/uni/budape%C5%9Fte-metropolitan-%C3%BCniversitesi-15 1 -
+/medeni-hukuk-ve-m%C3%BClk-hukuku-406 1 -
+/haz%C4%B1rl%C4%B1k-y%C4%B1l%C4%B1-146 1 -
+/phpMyAdmin-4.7.3-all-languages 1 -
+/mba-y%C3%B6netim-254 1 -
+/yabanc%C4%B1-dil-almanca-401 1 -
+/bs-i%C5%9Fletme-finansman%C4%B1-69 1 -
+/lisans-i%C5%9Fletme-ve-y%C3%B6netim-209 1 -
+/lisans-uluslararas%C4%B1-ili%C5%9Fkiler-235 1 -
+/msc-mekatronik-m%C3%BChendisli%C4%9Fi-62 1 -
+/bsc-in%C5%9Faat-m%C3%BChendisli%C4%9Fi-41 1 -
+/haz%C4%B1rl%C4%B1k-d%C3%B6nemi-y%C3%BCksek-lisans-183 1 -
+/demiryolu-end%C3%BCstrisinde-ve-i%C5%9Fletmesinde-y%C3%BCksek-lisans-382 1 -
+/mba-insan-kaynaklar%C4%B1-y%C3%B6netimi-198 1 -
+/aa-orta-%C3%B6%C4%9Fretim-90 1 -
+/ma-klasik-m%C3%BCzik-enstr%C3%BCmantal-performans%C4%B1-47 1 -
+/y%C3%BCksek-lisans-kompleksleri-tasar%C4%B1m-teknolojisi-354 2 -
+/msc-i%C5%9F-geli%C5%9Ftirme-175 1 -
+/lisans-uluslararas%C4%B1-ili%C5%9Fkiler-211 1 -
+/bilgisayar-m%C3%BChendisli%C4%9Finde-lisans-399 1 -
+/turizm-ve-otel-i%C5%9Fletmecili%C4%9Fi-y%C3%BCksek-lisans-program%C4%B1-287 1 -
+/ba-g%C3%B6rsel-tasar%C4%B1m-165 1 -
+/y%C3%BCksek-lisans-d%C3%B6k%C3%BCm-%C3%BCretim-teknolojisi-ve-ekipmanlar%C4%B1-356 1 -
+/uni/debre%C3%A7en-%C3%BCniversitesi-4 1 -
+/ma-ingilizce-%C3%B6%C4%9Fretimi-64 1 -
+/hidrolik-makinelerde-hidrolik-tahrikde-y%C3%BCksek-lisans-353 1 -
+/trafik-y%C3%B6netiminde-y%C3%BCksek-lisans-383 1 -
+/uluslararas%C4%B1-ili%C5%9Fkiler-tarihi-ve-teorisi-405 1 -
+/y%C3%BCksek-lisans-%C3%BCnitelerinde-ve-ileti%C5%9Fim-anahtarlama-sistemlerinde-369 2 -
+/end%C3%BCstriyel-ekonomi-y%C3%BCksek-lisans-program%C4%B1-311 1 -
+/ula%C5%9F%C4%B1m-onar%C4%B1m%C4%B1-ve-servisinde-y%C3%BCksek-lisans-381 1 -
+/bba-i%C5%9Fletme-197 1 -
+/as-havac%C4%B1l%C4%B1k-96 1 -
+/metroloji-standartla%C5%9Ft%C4%B1rma-ve-sertifika-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-268 1 -
+/ba-hons-i%C5%9Fletme-y%C3%B6netimi-ve-finans-76 1 -
+/ba-hons-i%C5%9Fletme-ve-insan-kaynaklar%C4%B1-y%C3%B6netimi-78 1 -
+/elektronik-radyo-ve-telekom%C3%BCnikasyon-m%C3%BChendisli%C4%9Finde-lisans-derecesi-393 1 -
+/scholarship/images/owl-pre.png 1 -
+/end%C3%BCstriyel-elektronikler-alan%C4%B1nda-y%C3%BCksek-lisans-349 1 -
+/lisans-%C3%A7evre-m%C3%BChendisli%C4%9Fi-390 1 -
+/lisans-malzeme-m%C3%BChendisli%C4%9Fi-391 1 -
+/bba-i%C5%9Fletme-27 1 -
+/country 1 -
+/g%C4%B1da-%C3%BCr%C3%BCnleri-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-296 1 -
+/makine-m%C3%BChendisli%C4%9Fi-teknolojisi-alan%C4%B1nda-y%C3%BCksek-lisans-357 1 -
+/llm-avrupa-ve-uluslararas%C4%B1-ticaret-hukuku-48 1 -
+/bsc-kimya-m%C3%BChendisli%C4%9Fi-40 1 -
+/uzmanla%C5%9Fm%C4%B1%C5%9F-radyo-ileti%C5%9Fim-sistemlerinde-y%C3%BCksek-lisans-370 1 -
+/makine-ve-saha-ekipman-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-program%C4%B1-272 1 -
+/lisans-g%C4%B1da-%C3%BCr%C3%BCnleri-m%C3%BChendisli%C4%9Fi-218 1 -
+/ba-i%C5%9Fletme-organizasyonu-ve-y%C3%B6netimi-236 1 -
+/siteindex.php 1 -
+/bsc-y%C3%B6netim-ve-turizm-188 1 -
+/diploma-i%C5%9F-ve-finans-131 1 -
+/malzeme-bilimi-ve-malzemeleri-teknolojisi-alan%C4%B1nda-y%C3%BCksek-lisans-362 1 -
+/msc-finansal-y%C3%B6netim-192 1 -
+/y%C3%BCksek-lisans-elektronik-e-posta-ileti%C5%9Fiminde-368 2 -
+/msc-tar%C4%B1m-%C3%A7evre-y%C3%B6netimi-m%C3%BChendisli%C4%9Fi-50 1 -
+/yo%C4%9Fun-ingilizce-dil-kursu-181 1 -
+/bsc-y%C3%B6netim-186 1 -
+/evde-elektronik-ekipman-bak%C4%B1m%C4%B1nda-y%C3%BCksek-lisans-365 1 -
+/bs-dijital-medya-y%C3%B6netimi-70 1 -
+/bsc-bilgisayar-m%C3%BChendisli%C4%9Fi-36 1 -
+/lisans-turizm-ve-otel-i%C5%9Fletmecili%C4%9Fi-203 1 -
+/g%C4%B1da-%C3%BCr%C3%BCnleri-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-267 1 -
+/ticarett-y%C3%BCksek-lisans-298 1 -
+/uni/azerbaycan-devlet-iktisat-%C3%BCniversitesi-7 1 -
+/k%C4%B1sa-ingilizce-dil-kursu-149 1 -
+/elektronik-hesaplama-cihazlar%C4%B1n%C4%B1n-yap%C4%B1m%C4%B1-ve-teknolojisi-alan%C4%B1nda-y%C3%BCksek-lisans-340 1 -
+/aas-%C3%BCretim-tar%C4%B1m-122 1 -
+/uni/nah%C3%A7%C4%B1van-devlet-%C3%BCniversitesi-20 1 -
+/sistemler-ve-a%C4%9Flardaki-y%C3%BCksek-lisans-345 1 -
+/demir-ve-demir-d%C4%B1%C5%9F%C4%B1-metaller-konusunda-y%C3%BCksek-lisans-361 1 -
+/lisans-d%C3%BCnya-ekonomisi-233 1 -
+/ 1 http://celtabroad.com/university/bilgi-university
+/uni/waterloo-%C3%BCniversitesi-13 1 -
+/teknolojik-makine-ve-te%C3%A7hizat-alan%C4%B1nda-master-317 1 -
+/uni/avrupa-%C3%BCniversitesi-barselona-8 1 -
+/mba-tasar%C4%B1m-y%C3%B6netimi-326 1 -
+/uni/kaplan-english-santa-barbara-38 1 -
+/ba-grafik-tasar%C4%B1m%C4%B1-162 1 -
+/ma-amerika-biliml%C9%99ri-46 1 -
+/bsc-hem%C5%9Firelik-328 1 -
+/y%C3%BCksek-lisans-sinyal-al%C4%B1m%C4%B1nda-i%C5%9Fleme-373 2 -
+/havac%C4%B1l%C4%B1k-teknisyeni-aviyonik-bak%C4%B1m-125 1 -
+/as-tar%C4%B1msal-ileti%C5%9Fim-98 1 -
+/demir-ve-demirsiz-metal-d%C3%B6k%C3%BCmlerinde-y%C3%BCksek-lisans-360 1 -
+/standardizasyon-ve-sertifikasyon-alan%C4%B1nda-y%C3%BCksek-lisans-313 1 -
+/yabanc%C4%B1-dil-arapca-403 1 -
+/s%C3%BCre%C3%A7-otomasyon-m%C3%BChendisli%C4%9Finde-lisans-400 1 -
+/public/storage/country/2p0vBkC70gRkRjCKRgtrBr9CrUmEYQlmMGJZZgAe.jpeg 3 -
+/phpMyAdmin-4.7.1-all-languages 1 -
+/public_html/storage/country/2p0vBkC70gRkRjCKRgtrBr9CrUmEYQlmMGJZZgAe.jpeg 2 -
+/istatistik-y%C3%BCksek-lisans-282 1 -
+/as-beden-e%C4%9Fitimi-112 1 -
+/ba-mimarl%C4%B1k-101 1 -
+/ileti%C5%9Fim-ve-bilgi-da%C4%9F%C4%B1t%C4%B1m-sistemlerinde-y%C3%BCksek-lisans-366 1 -
+/lisans-makine-m%C3%BChendisli%C4%9Fi-389 1 -
+/uluslararas%C4%B1-ili%C5%9Fkiler-y%C3%BCksek-lisans-program%C4%B1-293 1 -
+/biyolojik-ve-t%C4%B1bbi-uygulamalarda-m%C3%BChendislik-%C3%A7al%C4%B1%C5%9Fmalar%C4%B1nda-y%C3%BCksek-lisans-312 1 -
+/aa-okul-%C3%B6ncesi-e%C4%9Fitim-85 1 -
+/yo%C4%9Fun-azerbaycan-dili-kursu-238 1 -
+/teknolojik-s%C3%BCre%C3%A7lerin-otomasyonu-alan%C4%B1nda-y%C3%BCksek-lisans-346 1 -
+/ba-spor-y%C3%B6netimi-68 1 -
+/bsc-halk-sa%C4%9Fl%C4%B1%C4%9F%C4%B1-28 1 -
+/bsc-fiziksel-e%C4%9Fitim-339 1 -
+/js/popper.js.map 16 -
+/ba-s%C3%BCrd%C3%BCr%C3%BClebilirlik-y%C3%B6netimi-71 1 -
+/bsc-biyokimya-m%C3%BChendisli%C4%9Fi-39 1 -
+/finans-y%C3%BCksek-lisans-program%C4%B1-304 1 -
+/haz%C4%B1rl%C4%B1k-kursu-m%C3%BCzik-152 1 -
+/msc-bilgisayar-m%C3%BChendisli%C4%9Fi-138 1 -
+/aas-foto%C4%9Fraf-ileti%C5%9Fimi-121 1 -
+/diploma-i%C5%9F-d%C3%BCnyas%C4%B1-127 1 -
+/bsc-makina-m%C3%BChendisli%C4%9Fi-43 1 -
+/bsc-mekatronik-m%C3%BChendisli%C4%9Fi-44 1 -
+/lisans-i%C5%9Fletme-228 1 -
+/tasar%C4%B1m-%C3%BCzere-y%C3%BCksek-lisans-292 1 -
+/ba-uluslararas%C4%B1-ili%C5%9Fkiler-158 1 -
+/ba-foto%C4%9Fraf%C3%A7%C4%B1l%C4%B1k-164 1 -
+/stratejik-y%C3%B6netim-408 1 -
+/elektro-enerji-alan%C4%B1nda-y%C3%BCksek-lisans-379 1 -
+/elektronik-alan%C4%B1nda-uzman-ve-fiziksel-cihazlar%C4%B1n-otomati%C4%9Fi-348 1 -
+/mba-y%C3%B6netim-250 1 -
+/msc-pazarlama-y%C3%B6netimi-195 1 -
+/t%C3%BCketim-mallar%C4%B1-end%C3%BCstrisinde-teknoloji-ve-m%C3%BChendislik-%C3%BCzere-y%C3%BCksek-lisans-277 1 -
+/pi%C5%9Firme-ve-b%C3%BCt%C3%A7e-sanatlar%C4%B1-y%C3%B6netimi-126 1 -
+/mba-giri%C5%9Fimcilik-323 1 -
+/g%C3%BC%C3%A7-kayna%C4%9F%C4%B1-ustas%C4%B1nda-y%C3%BCksek-lisans-380 1 -
+/bsc-eczac%C4%B1l%C4%B1k-24 1 -
+/mba-insan-kaynaklar%C4%B1-y%C3%B6netimi-261 1 -
+/i%C5%9Fletme-organizasyonunda-ve-y%C3%B6netiminde-lisans-derecesi-385 1 -
+/mba-uluslararas%C4%B1-i%C5%9Fletme-263 1 -
+/lisans-turizm-ve-otel-i%C5%9Fletmecili%C4%9Fi-234 1 -
+/azerbaycan-dili-i%C3%A7in-haz%C4%B1rl%C4%B1k-y%C4%B1l%C4%B1-241 1 -
+/mba-de%C4%9Ferli-menkul-k%C4%B1ymetler-258 1 -
+/muhasebe-ve-denetim-y%C3%BCksek-lisans-program%C4%B1-274 1 -
+/msc-sosyal-sa%C4%9Fl%C4%B1k-hizmeti-53 1 -
+/ma-ileti%C5%9Fim-ve-medya-bilimi-176 1 -
+/aas-m%C3%BCzik-teknolojisi-120 1 -
+/kompres%C3%B6r-makine-ve-cihazlar%C4%B1nda-y%C3%BCksek-lisans-377 1 -
+/lisans-d%C3%BCnya-ekonomisi-216 1 -
+/lisans-elektrik-m%C3%BChendisli%C4%9Fi-394 1 -
+/ticaret-y%C3%BCksek-lisans-269 1 -
+/y%C3%BCksek-lisans-bilgi-i%C5%9Flem-otomasyon-sistemi-344 1 -
+/i%C5%9Fletme-y%C3%BCksek-lisans-278 1 -
+/elektrik-izolasyon-m%C3%BChendisli%C4%9Finde-y%C3%BCksek-lisans-376 1 -
+/lisans-d%C3%BCnya-ekonomisi-222 1 -
+/lisans-is%C4%B1-enerjisi-m%C3%BChendisli%C4%9Finde-395 1 -
+/%C3%A7ok-kanall%C4%B1-telekom%C3%BCnikasyon-sistemlerinde-y%C3%BCksek-lisans-367 2 -
+/as-tar%C4%B1m-i%C5%9Fletmecili%C4%9Fi-97 1 -
+/pazarlama-%C3%BCzere-y%C3%BCksek-lisans-276 1 -
+/genel-t%C4%B1p-34 1 -
+/otomobil-par%C3%A7alar%C4%B1-ve-donan%C4%B1m-restorasyonunda-master-derecesi-355 1 -
+/kablo-ve-iletken-m%C3%BChendisli%C4%9Fi-alan%C4%B1nda-y%C3%BCksek-lisans-375 1 -
+/lisans-uluslararas%C4%B1-ili%C5%9Fkiler-229 1 -
+/y%C3%BCksek-lisans-otomatik-sistemlerin-ve-bilgi-i%C5%9Flem-cihazlar%C4%B1n%C4%B1n-yaz%C4%B1l%C4%B1m%C4%B1-343 2 -
+/ba-medya-tasar%C4%B1m%C4%B1-163 1 -
+/lisans-t%C3%BCketici-mallar%C4%B1-uzmanl%C4%B1%C4%9F%C4%B1-ve-markas%C4%B1-226 1 -
+/bsc-elektrik-m%C3%BChendisli%C4%9Fi-42 1 -
+/di%C5%9F-hekimli%C4%9Fi-25 1 -
+/msc-hayvanc%C4%B1l%C4%B1k-m%C3%BChendisli%C4%9Fi-134 1 -
+/bilgisayar-bilimlerinde-y%C3%BCksek-lisans-299 1 -
+/user/login 1 -
+/lisans-elektrik-m%C3%BChendisli%C4%9Finde-396 1 -
+/d%C3%BCnya-ekonomisi-%C3%BCzere-y%C3%BCksek-lisans-305 1 -
+/yabanc%C4%B1-dil-ingilizce-244 1 -
+/finans-y%C3%BCksek-lisans-program%C4%B1-283 1 -
+/msc-molek%C3%BCler-biyoloji-23 1 -
+/msc-uluslararas%C4%B1-y%C3%B6netim-194 1 -
+/t%C3%BCketim-mallar%C4%B1-end%C3%BCstrisinde-teknoloji-ve-m%C3%BChendislik-%C3%BCzere-y%C3%BCksek-lisans-295 1 -
+/makine-ve-saha-ekipman-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-program%C4%B1-294 1 -
+/lisans-i%C5%9Fletme-208 1 -
+/lisans-biyomedikal-m%C3%BChendislik-teknolojisinde-387 1 -
+/mba-ileti%C5%9Fim-halkla-ili%C5%9Fkiler-319 1 -
+/lisans-end%C3%BCstri-m%C3%BChendisli%C4%9Fi-ve-y%C3%B6netimi-386 1 -
+/y%C3%BCksek-lisans-optik-ileti%C5%9Fimi-fizik-ve-teknoloji-363 2 -
+/i%C5%9Fletme-y%C3%B6netimi-%C3%BCzere-y%C3%BCksek-lisans-310 1 -
+/diploma-i%C5%9F-insan-kaynaklar%C4%B1-132 1 -
+/bsc-finansal-y%C3%B6netim-184 1 -
+/haz%C4%B1rl%C4%B1k-y%C4%B1l%C4%B1-196 1 -
+/devlet-hizmetlerinin-y%C3%B6netimi-ve-organizasyonu-411 1 -
+/ba-e%C4%9Flence-ve-seyahat-66 1 -
+/enstr%C3%BCmantasyon-teknolojisinde-y%C3%BCksek-lisans-315 1 -
+/bsc-ziraat-m%C3%BChendisli%C4%9Fi-31 1 -
+/universities/list/images/owl-pre.png 1 -
+/as-meslek-%C3%B6ncesi-terapi-114 1 -
+/diploma-i%C5%9Fletme-giri%C5%9Fimcilik-ve-y%C3%B6netim-130 1 -
+/genel-mba-rus%C3%A7a-260 1 -
+/msc-g%C4%B1da-g%C3%BCvenli%C4%9Fi-ve-kalite-51 1 -
+/msc-k%C4%B1rsal-kalk%C4%B1nma-m%C3%BChendisli%C4%9Fi-135 1 -
+/ba-ingilizce-ve-amerikanca-%C3%B6%C4%9Fretimi-45 1 -
+/me 1 -
+/yo%C4%9Fun-rus%C3%A7a-haz%C4%B1rl%C4%B1k-242 1 -
+/ba-uygulamal%C4%B1-ekonomi-191 1 -
+/4-hafta-i%C5%9F-ingilizcesi-418 1 -
+/ba-hons-i%C5%9Fletme-y%C3%B6netimi-ve-i%C5%9Fletmecili%C4%9Fi-77 1 -
+/radyo-ileti%C5%9Fim-tesislerinde-y%C3%BCksek-lisans-371 1 -
+/.env 6 -
+/metroloji-standartla%C5%9Ft%C4%B1rma-ve-sertifika-m%C3%BChendisli%C4%9Fi-y%C3%BCksek-lisans-297 1 -
+/lisans-metalurji-m%C3%BChendisli%C4%9Fi-392 1 -
+/mba-global-bankac%C4%B1l%C4%B1k-ve-finans-321 1 -
+/msc-makina-m%C3%BChendisli%C4%9Fi-136 1 -
+/as-m%C3%BChendislik-109 1 -
+/lisans-biyomedikal-m%C3%BChendislik-teknolojisinde-388 1 -
+/university//span[ 1 -
+/mba-insan-kaynaklar%C4%B1-y%C3%B6netimi-325 1 -
+/yar%C4%B1-iletken-sistem-ve-cihazlar%C4%B1n-fizik-alan%C4%B1nda-y%C3%BCksek-lisans-350 1 -
+/turizm-ve-otel-i%C5%9Fletmecili%C4%9Fi-y%C3%BCksek-lisans-program%C4%B1-306 1 -
+/uni/avrupa-%C3%BCniversitesi-m%C3%BCnih-9 1 -
+/ba-i%C5%9Fletme-ve-y%C3%B6netim-35 1 -
+/halter-kald%C4%B1r%C4%B1ml%C4%B1-kamyonlar-transmisyonunda-uzman-y%C3%BCksek-lisans-316 1 -
+/haz%C4%B1rl%C4%B1k-d%C3%B6nemi-i%C5%9Fletme-182 1 -
+/kamu-y%C3%B6netimi-y%C3%BCksek-lisans-270 1 -
+/as-atletik-e%C4%9Fitim-105 1 -
+/aa-m%C3%BCzik-87 1 -
+/muhasebe-ve-denetim-y%C3%BCksek-lisans-program%C4%B1-301 1 -
+/diploma-i%C5%9Fletme-muhasebe-128 1 -
+/lisans-end%C3%BCstri-m%C3%BChendisli%C4%9Fi-ve-y%C3%B6netimi-210 1 -
+/ekonominin-d%C3%BCzenlenmesi-407 1 -
+/uni/ibs-international-business-school-budape%C5%9Fte-6 1 -
+/metroloji-ve-metrolojik-g%C3%BCvencede-y%C3%BCksek-lisans-314 1 -
+/d%C3%BCnya-ekonomisi-%C3%BCzere-y%C3%BCksek-lisans-286 1 -
+/ba-elektronik-tasar%C4%B1m-ve-multimedya-167 1 -
+/public/login 1 -
+/end%C3%BCstri-m%C3%BChendisli%C4%9Fi-ve-y%C3%B6netimi-y%C3%BCksek-lisans-program%C4%B1-300 1 -
+/ma-grafik-tasar%C4%B1m%C4%B1-179 1 -
+/aas-veteriner-asistan%C4%B1-123 1 -
+/msc-hidrobiyoloji-su-kalitesi-y%C3%B6netim-61 1 -
+/ba-performans-m%C3%BCzik-29 1 -
+/bsc-i%C5%9Fletme-ve-diplomasi-185 1 -
+/uni/azerbaycan-teknik-%C3%BCniversitesi-17 1 -
+/ba-m%C3%BCzikal-yarat%C4%B1c%C4%B1-sanat-ve-m%C3%BCzikoloji-30 1 -
+/bsc-y%C3%B6netim-ve-pazarlama-190 1 -
+/ba-hons-i%C5%9Fletme-y%C3%B6netimi-ve-pazarlama-75 1 -
+/aa-ileti%C5%9Fim-81 1 -
+/kamu-y%C3%B6netimi-y%C3%BCksek-lisans-program%C4%B1-289 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+49.36.72.141 60 209 30997810 20200907032210 20200907032210 /
+159.69.58.136 8 8 92790 20200906091619
+52.175.155.252 7 7 102137 20200905233513
+178.62.82.141 7 7 67564 20200901062749
+196.251.153.151 6 6 642 20200904134829
+212.47.133.66 5 29 3694763 20200903160418
+131.220.6.152 4 4 58085 20200906091815
+89.215.221.189 4 24 1836478 20200905035325
+34.68.251.86 3 3 358762 20200903021035
+84.17.60.215 3 3 899473 20200905003128
+38.18.52.155 1 1 14595 20200906021509
+106.53.82.40 1 1 14673 20200905153501
+158.181.42.174 2 33 1708389 20200904115617
+13.59.38.56 1 1 119531 20200901184650
+104.197.7.75 1 1 11374 20200901121837
+136.27.62.24 1 1 119552 20200903073400
+149.202.67.223 1 1 119560 20200903100215
+34.244.139.68 1 1 120028 20200903204529
+219.91.245.254 2 22 1535074 20200905053301
+35.222.161.134 1 1 11374 20200901171510
+184.94.240.92 1 1 14674 20200905173355
+185.162.128.133 1 1 14595 20200906153646
+138.246.253.15 2 2 0 20200904043732
+3.133.89.74 1 1 120150 20200904180614
+128.199.50.243 1 1 119531 20200902000806
+199.127.56.236 2 21 1534034 20200906192752
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20200901 10 10 209843 4
+20200902 2 2 239062 2
+20200903 12 36 4307656 7
+20200904 35 126 13884962 6
+20200905 54 182 22778560 8
+20200906 13 32 1670534 5
+20200907 1 2 595021 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+30s-2mn 1
+15mn-30mn 1
+0s-30s 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 63 2693107 31 21
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2 10 761200 0 4
+/universities 5 114114 0 0
+/university/bilgi-university 4 221708 0 0
+/_debugbar/assets/javascript 4 528291 0 0
+/_debugbar/assets/stylesheets 4 520688 1 0
+/contact-us 4 324037 0 2
+/_debugbar/open 3 17354 0 0
+/login 3 294 0 0
+/scholarships 2 46843 0 1
+/phpMyAdmin/index.php 1 107 0 0
+/program/aerospace-engineering21/view 1 8074 0 0
+/about-us 1 10167 0 0
+/applications 1 42936 0 0
+/programs 1 56150 0 0
+/country/turkey 1 9774 0 1
+/blog/xmlrpc.php 1 107 0 0
+/country/usa/state 1 9460 0 0
+/xmlrpc.php 1 107 1 0
+/program/finance/view 1 8057 0 0
+/program/criminology/view 1 8063 0 0
+/country/germany/state 1 9362 0 0
+/wordpress/xmlrpc.php 1 107 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2 1 76548 0 0
+/country/the-united-kingdom/state 1 6658 0 0
+/university/city-university-of-london 1 13252 0 1
+/pma/index.php 1 107 0 0
+/blogs 1 22866 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2 1 13600 0 0
+/privacy-policy 2 15475 0 0
+/phpmyadmin/index.php 1 107 0 1
+/phpinfo 1 10932 0 0
+/countries 2 52603 0 1
+END_SIDER

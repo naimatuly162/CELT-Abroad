@@ -1,0 +1,616 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202008 will be lost/reset.
+# Last config file used to build this data file was /home/celt2473/tmp/awstats/awstats.celtabroad.celt.az.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2679                
+POS_VISITOR 13350               
+POS_DAY 15839               
+POS_DOMAIN 3456                
+POS_LOGIN 3889                
+POS_ROBOT 4044                
+POS_WORMS 4408                
+POS_EMAILSENDER 4539                
+POS_EMAILRECEIVER 4682                
+POS_SESSION 16203               
+POS_SIDER 16383               
+POS_FILETYPES 4817                
+POS_DOWNLOADS 5116                
+POS_OS 5164                
+POS_BROWSER 5371                
+POS_SCREENSIZE 6172                
+POS_UNKNOWNREFERER 6246                
+POS_UNKNOWNREFERERBROWSER 6484                
+POS_ORIGIN 6691                
+POS_SEREFERRALS 6828                
+POS_PAGEREFS 6972                
+POS_SEARCHWORDS 7351                
+POS_KEYWORDS 7503                
+POS_MISC 2343                
+POS_ERRORS 7562                
+POS_CLUSTER 3745                
+POS_SIDER_404 7728                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200901000424 13 2343 6769280487244
+FirstTime 0
+LastTime 20200831133650
+LastUpdate 20200901071127 13 0 12 0 0
+TotalVisits 66                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 6 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 412277 42 49 22081
+1 8 34 11150265 7 11 5028
+2 9 9 628022 15 30 1960971
+3 3 3 34127 20 30 153587
+4 1 1 11374 7 14 16480
+5 3 3 34121 9 13 814216
+6 34 227 42531276 9 13 27777
+7 9 40 12614896 9 17 40244
+8 7 51 19583128 28 37 603460
+9 6 34 11614654 8 11 6800
+10 12 12 553587 15 21 190837
+11 5 7 704392 26 37 25888
+12 6 32 11030689 88 100 542290
+13 13 41 13861691 16 22 36438
+14 8 48 10824936 14 28 1937830
+15 1 1 11373 15 25 180059
+16 3 3 11376 19 34 710985
+17 5 5 161944 14 24 720307
+18 8 33 5378526 36 41 205093
+19 5 32 5024292 67 78 54367
+20 1 1 11373 20 28 32887
+21 12 38 11092630 77 81 49703
+22 47 208 44877268 26 54 864373
+23 0 0 0 4 8 13806
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+us 111 509 118903436
+in 49 184 34461432
+az 12 83 23210281
+de 9 11 2850282
+ro 7 56 21025764
+gb 5 5 489491
+ua 4 4 400776
+nl 4 4 22936
+ru 3 3 141560
+fi 2 2 11437
+se 2 2 22751
+fr 1 1 11376
+es 1 3 595319
+cn 1 1 11376
+gr 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 148 6258134 20200831194033 10
+bot[\s_+:,\.\;\/\\-] 20 12130 20200831042658 19
+unknown 6 240 20200830153333 6
+googlebot\-image 5 789624 20200831054706 0
+no_user_agent 3 357641 20200824154013 0
+netcraft 1 0 20200831111755 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 30 1331675 0 0
+ttf 1 93476 0 0
+woff 1 25999 0 0
+js 89 24971578 0 0
+gif 21 67200 0 0
+jpeg 111 102216182 0 0
+jpg 182 60030914 0 0
+Unknown 48 1434078 0 0
+php 14 45050 0 0
+html 107 2852974 0 0
+woff2 41 2198205 0 0
+png 224 6890886 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+winnt 252 66
+ios_iphone 48 8
+win8.1 6 6
+winlong 9 9
+linuxandroid 5 5
+Unknown 31 29
+win7 12 12
+macosx 37 6
+macosx8 1 1
+winxp 4 4
+linux 464 66
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+opera53.0.2907.99 1 1
+chrome67.0.3396.87 1 1
+chrome40.0.2214.93 1 1
+Unknown 28 28
+safari13.1.1 48 8
+chrome84.0.4147.135 125 26
+chrome75.0.3770.142 2 2
+chrome78.0.3904.108 3 3
+opera62.0.3331.99 1 1
+msie7.0 2 2
+chrome22.0.1207.1 6 6
+firefox57.0 1 1
+chrome80.0.3987.132 1 1
+chrome66.0.3359.181 1 1
+chrome75.0.3770.100 1 1
+chrome41.0.2228.0 1 1
+firefox50.0 1 1
+chrome59.0.3071.115 11 9
+chrome70.0.3538.67 441 45
+chrome83.0.4103.116 35 4
+firefox3.0.1 2 2
+chrome84.0.4147.125 114 29
+chrome56.0.2924.87 1 1
+wap 3 1
+chrome47.0.2526.111 1 1
+chrome73.0.3683.90 1 1
+chrome34.0.1847.137 1 1
+chrome34.0.1847.116 7 7
+chrome59.0.3071.104 15 15
+firefox28.0 1 1
+chrome83.0.4103.61 1 1
+chrome58.0.3029.110 1 1
+chrome26.0.1410.65 1 1
+chrome71.0.3578.98 4 2
+msie9.0 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Go-http-client/1.1 20200830153335
+\ 20200829010355
+python-requests/2.22.0 20200831052428
+Mediapartners-Google 20200826223442
+Wappalyzer 20200822093136
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Mediapartners-Google 20200826223442
+python-requests/2.22.0 20200831052428
+\ 20200829010355
+Go-http-client/1.1 20200830153335
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 122 125
+From1 0 0
+From2 0 0
+From3 4 4
+From4 86 740
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://comfort.kr.ua/remonty-kvartir/ 1 1
+https://balkon.dp.ua/%d0%be%d1%81%d0%b2%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%b0/ 1 1
+https://zhidkie-oboi.kr.ua/ceny/ 1 1
+https://www.upwork.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+419 1 1558
+301 224 83984
+500 84 668851
+404 255 1022160
+400 3 4179
+405 14 6516
+302 36 9738
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 185
+/new/ 1 -
+/4-hafta-i%C5%9F-ingilizcesi-418 2 -
+/backend/.env 1 -
+/back-end/app/.env 1 -
+/storage/institutions/cover/160916.jpg 2 http://celtabroad.com/
+/media/wp-includes/wlwmanifest.xml 1 -
+/dev 1 http://www.celtabroad.com/dev/
+/2019/wp-includes/wlwmanifest.xml 1 -
+/storage/institutions/cover/431817.jpg 3 http://celtabroad.com/
+/js/popper.js.map 4 -
+/style/.env 1 -
+/RbZeZ/PZYTZ/uni/celt-cardiff-19 1 -
+/phpMyAdmin-4.8.0-rc1-all-languages 1 -
+/wp 1 http://www.celtabroad.com/wp/
+/phpMyAdmin-4.8.1-all-languages 1 -
+/phpmyadmin/print.css 1 -
+/root/.env 1 -
+/js/.env 1 -
+/test 1 http://www.celtabroad.com/test/
+/v1 1 http://www.celtabroad.com/v1/
+/saas/.env 1 -
+/login/.env 1 -
+/api/.env 1 -
+/fonts/.env 1 -
+/phpMyAdmin-4.7.7-all-languages 1 -
+/UpMVZ/ba-finans-ve-muhasebe-156 1 -
+/uni/kaplan-english-nyc-soho-33 1 -
+/uni/kaplan-english-san-francisco-37 1 -
+/2019 1 http://www.celtabroad.com/2019/
+/site/wp-includes/wlwmanifest.xml 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/old_site 1 -
+/aa-ileti%C5%9Fim-81 3 -
+/blogbackup 1 -
+/doc/.env 1 -
+/phpMyAdmin-4.8.5-all-languages 1 -
+/web 1 http://www.celtabroad.com/web/
+/country 1 -
+/website 1 -
+/phpMyAdmin-4.8.4-all-languages 1 -
+/database/print.css 1 -
+/locate/tur 1 -
+/mysqlbackupro 1 -
+/wp2 1 http://www.celtabroad.com/wp2/
+/example/.env 1 -
+/search 6 -
+/oldsite 1 -
+/ielts-passport-course-239 1 -
+/css/.env 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/public/.env 1 -
+/laravel/.env 1 -
+/wordpress 1 http://www.celtabroad.com/wordpress/
+//wp-admin/admin-ajax.php 1 -
+/2018 1 http://www.celtabroad.com/2018/
+/news/wp-includes/wlwmanifest.xml 1 -
+/blog2 1 -
+/home/.env 1 -
+/cp/.env 1 -
+/main 1 http://www.celtabroad.com/main/
+/http/.env 1 -
+/sources/.env 1 -
+/phpMyAdmin-4.8.0.1-all-languages 1 -
+/shell.php 1 -
+/uni/fanshawe-koleji-14 1 -
+/blog 2 -
+/demo 1 http://www.celtabroad.com/demo/
+/uni/kaplan-english-huntington-beach-29 1 -
+/public/register 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/phpMyAdmin-4.7.9-all-languages 1 -
+/mybackup 1 -
+/server/.env 1 -
+/storage/institutions/cover/740831.jpg 3 -
+/phpMyAdmin-4.7.6-all-languages 1 -
+/humans.txt 3 -
+/storage/country/7gXGs5PNTHFwnJiyqzyjZHvzDqz1ofqSpivoHsVD.jpeg 2 http://celtabroad.com/
+/web2 1 -
+/me 1 -
+/cms 1 http://www.celtabroad.com/cms/
+/backup 1 http://www.celtabroad.com/backup/
+/path/.env 1 -
+/sites/.env 1 -
+/editdirect/js/editdirect_global.js 1 -
+/html/.env 1 -
+/home 1 http://www.celtabroad.com/home/
+/test/.env 1 -
+/pma/print.css 1 -
+/university-page 1 -
+/install/.env 1 -
+/vendor/.env 1 -
+/phpMyAdmin-4.8.0-alpha1-all-languages 1 -
+/app/.env 1 -
+/phpMyAdmin-4.7.5-all-languages 1 -
+/admin/.env 1 -
+/public/members 1 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/old-wp 1 http://www.celtabroad.com/old-wp/
+/university/koc-university 1 -
+/wp-login.php 20 -
+/templates/.env 1 -
+/template/.env 1 -
+/public_html/.env 1 -
+/uni/city-college-new-york-12 1 -
+/ftp/.env 1 -
+/ba-m%C3%BCzikal-yarat%C4%B1c%C4%B1-sanat-ve-m%C3%BCzikoloji-30 1 -
+/xmlrpc.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 3 www.google.com
+/bak 1 http://www.celtabroad.com/bak/
+/temp 1 http://www.celtabroad.com/temp/
+/storage/country/rHKPa3pjtaUX8HN0IAFhzlUIAAofI3OfAiecfepe.jpeg 2 http://celtabroad.com/
+//.env 1 -
+/storage/student/wYmAtO1FVZZy3Qf75vVt3p54QAuNiX60oj9H20uo.jpeg 2 http://celtabroad.com/
+/demos 1 -
+/nginx/.env 1 -
+/universities/list/images/owl-pre.png 1 http://celtabroad.com/universities/list/all
+/wp/wp-includes/wlwmanifest.xml 1 -
+/wp-backup 1 -
+/files/.env 1 -
+/phpMyAdmin-4.7.8-all-languages 1 -
+/web/.env 1 -
+/site 1 http://www.celtabroad.com/site/
+/engine/.env 1 -
+/temp/.env 1 -
+/assets/.env 1 -
+/database/.env 1 -
+/bsc-g%C4%B1da-m%C3%BChendisli%C4%9Fi-32 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/_cms 1 -
+/en/.env 1 -
+/env/.env 1 -
+/new-site 1 http://www.celtabroad.com/new-site/
+/log/.env 1 -
+/config/.env 1 -
+/2020 1 http://www.celtabroad.com/2020/
+/Sources/API/.env 1 -
+/wordpress2 1 -
+/old-site 1 http://www.celtabroad.com/old-site/
+/wp1 1 http://www.celtabroad.com/wp1/
+/phpMyAdmin-4.7.4-all-languages 1 -
+/phpMyAdmin-4.8.3-all-languages 1 -
+/mysql/print.css 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/blogg 1 -
+/myadmin/print.css 1 -
+/universities/list/images/owl-next.png 1 http://celtabroad.com/universities/list/all
+/phpMyAdmin/print.css 1 -
+/test/wp-login.php 2 -
+/ba-performans-m%C3%BCzik-29 1 -
+/error/.env 1 -
+/demo/.env 1 -
+/lab/.env 1 -
+/administrator/.env 1 -
+/export/.env 1 -
+/v2 1 http://www.celtabroad.com/v2/
+/wp-includes/wlwmanifest.xml 1 -
+/lisans-d%C3%BCnya-ekonomisi-216 3 -
+/_old 1 -
+/demo/wp-login.php 2 -
+/bk 1 http://www.celtabroad.com/bk/
+/develop 1 -
+/install 1 http://www.celtabroad.com/install/
+/.env 7 -
+/sitemaps/.env 1 -
+/.git/HEAD 10 -
+/old 1 http://www.celtabroad.com/old/
+/tmp 1 http://www.celtabroad.com/tmp/
+/wp-test 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/wptest 1 -
+/ads.txt 7 -
+/core/.env 1 -
+/storage/country/2p0vBkC70gRkRjCKRgtrBr9CrUmEYQlmMGJZZgAe.jpeg 2 http://celtabroad.com/
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/v1/.env 1 -
+/local/.env 1 -
+/mail/.env 1 -
+/phpMyAdmin-4.8.2-all-languages 1 -
+/rest/.env 1 -
+/storage/country/84YEQUtGXMFB8UyDYzRYPPATU4wwx5ggxji328Nt.jpeg 2 http://celtabroad.com/
+/old_wp 1 -
+/client/.env 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+49.36.72.141 44 179 34120572 20200826223352
+213.239.193.124 8 8 75463 20200830102231
+5.197.211.14 8 48 10824936 20200822140914
+159.65.24.22 7 7 67566 20200828135359
+34.66.104.59 5 31 11019301 20200824084423
+89.238.207.76 5 36 12461937 20200825071035
+35.225.213.32 5 32 5024331 20200821061701
+35.238.180.74 5 31 11019312 20200826123439
+35.224.110.25 5 32 5024331 20200821062402
+35.239.244.4 5 32 5024292 20200822190749
+35.202.43.189 5 32 5024296 20200822064846
+104.154.176.9 5 31 11019306 20200827134950
+34.68.188.211 5 32 5024336 20200821062040
+34.70.32.108 5 31 11019299 20200827013837
+34.66.15.75 5 31 11019301 20200825224842
+104.197.164.52 5 31 11019304 20200825093501
+34.68.146.174 5 32 5024299 20200821061353
+35.239.31.217 5 31 11019304 20200824210233
+35.239.123.101 5 30 5022081 20200821182720
+35.224.152.165 5 32 5024338 20200821061537
+109.205.160.238 4 35 12385345 20200825065547
+51.178.60.145 4 4 478124 20200829104357
+219.91.225.231 4 4 308422 20200820022801
+91.236.116.14 4 4 22936 20200824015715
+104.227.162.109 4 4 50515 20200829212427
+64.21.98.47 1 1 11401 20200821072337
+213.217.0.184 2 2 11437 20200830211707
+138.197.148.140 1 1 0 20200821164809
+5.12.81.73 2 20 8563827 20200826080725
+35.210.4.1 1 3 595350 20200822093135
+223.157.219.210 1 1 11376 20200826075843
+178.136.123.39 1 1 119531 20200826003034
+51.77.52.160 1 1 11367 20200828070309
+162.223.90.202 2 2 65263 20200820110738
+34.212.169.150 1 1 11372 20200826113542
+35.222.99.227 1 1 32247 20200820171519
+46.98.212.79 3 3 281245 20200826005959
+185.81.157.177 1 1 11376 20200829160834
+152.44.97.42 3 3 356445 20200821184201
+3.81.245.94 1 1 119531 20200829010355
+34.68.189.98 2 2 22751 20200828213855
+34.67.188.105 1 1 32233 20200820171419
+83.37.216.162 1 3 595319 20200827111948
+66.249.83.88 1 1 35058 20200820022519
+34.66.80.226 1 1 11374 20200829044503
+158.46.136.211 1 1 11373 20200829202317
+52.14.213.220 2 2 22747 20200831050934
+45.148.10.74 1 1 32438 20200820115047
+109.234.34.254 1 1 118815 20200822074912
+104.198.137.58 1 1 11372 20200828021706
+192.71.126.175 2 2 22751 20200830153335
+34.66.220.176 1 1 32528 20200820171240
+104.197.208.244 1 1 32728 20200820171512
+35.192.73.232 1 1 11374 20200831052428
+185.191.204.9 1 1 11372 20200831032138
+178.128.232.255 1 1 0 20200821164810
+35.232.145.149 1 1 32208 20200820171518
+66.249.89.30 1 1 10565 20200826223442
+146.148.62.243 1 1 11377 20200830033630
+176.9.8.180 1 3 2774819 20200831133650
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20200820 31 67 8455047 11
+20200821 36 196 30511562 10
+20200822 20 116 21587689 5
+20200823 23 88 12609708 2
+20200824 12 64 22050040 3
+20200825 19 133 46885887 4
+20200826 20 98 33699049 9
+20200827 11 65 22633924 3
+20200828 11 11 113056 5
+20200829 12 12 682293 6
+20200830 12 12 109650 4
+20200831 5 7 2820312 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+15mn-30mn 1
+0s-30s 59
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/ 106 2733443 60 33
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2 22 1673962 0 3
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2 15 204345 0 13
+/adminer.php 7 16743 0 0
+/universities 6 45318 1 2
+/shell.php 6 27790 0 0
+/public/phpinfo 4 140792 3 2
+/contact-us 4 54868 0 2
+/mail 3 227 0 3
+/_debugbar/assets/stylesheets 2 250198 0 0
+/_debugbar/assets/javascript 2 225660 0 0
+/public/_debugbar/assets/stylesheets 2 250198 0 0
+/privacy-policy 2 14151 0 0
+/university/manchester-univrsity 2 21126 1 2
+/countries 2 15614 0 1
+/public/_debugbar/assets/javascript 2 225660 0 1
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2 2 153106 0 1
+/admin/login 2 21679 0 0
+/new/fonts/materialdesignicons-webfont.woff2 1 89630 0 0
+/program/criminology/view 1 8068 0 0
+/program/finance/view 1 8059 0 0
+/country/turkey 1 8062 0 1
+/program/media-ba/view 1 7983 0 0
+/admin/home 1 18945 0 0
+/new/fonts/fontawesome-webfont.woff2 1 77162 0 0
+/foo 1 9593 0 0
+/program/geography-ma/view 1 8052 0 0
+/country/usa/state 1 7815 0 0
+/shell1.php 1 517 1 0
+/blogs 1 42183 0 1
+/country/germany/state 1 7736 0 0
+/universities/list/all 1 7740 0 0
+/new/fonts/dripicons-v2.woff 1 25999 0 0
+/new/fonts/ionicons.ttf 1 93476 0 0
+/program/aerospace-engineering21/view 1 8071 0 0
+/university/the-university-of-south-florida 1 9747 0 0
+/program/hh-histu/view 1 8053 0 1
+// 1 119531 0 0
+/about-us 1 8480 0 0
+END_SIDER

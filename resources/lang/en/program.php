@@ -1,0 +1,86 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Program Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used by the paginator library to build
+    | the simple pagination links. You are free to change them to anything
+    | you want to customize your views to better match your application.
+    |
+    */
+
+    'title1' => 'General information',
+    'image1' => 'Update Cover Photo',
+    'image2' => 'As indicated on your program image',
+    'title' => 'Program Title',
+    'subject_rank' => 'Subject Ranking',
+    'institution' => 'Institution',
+    'select' => 'Select',
+    'country' => 'Country',
+    'state' => 'Province/State',
+    'city' => 'City/Town',
+    'degree_level' => 'Program Level',
+    'study_type' => 'Program Format',
+    'study_area' => 'Program Disciplines',
+    'study_duration' => 'Program Duration',
+    'start_date' => 'Starting Month',
+    'session_program' => 'Session',
+    'deadline' => 'Deadline to Apply',
+    'add_period' => 'More start dates?',
+    'exam_require' => 'Exams Required',
+    'exact_score' => 'Exam Section Scores',
+    'overal_score' => 'Overal Score',
+    'reading' => 'Reading',
+    'listening' => 'Listening',
+    'speaking' => 'Speaking',
+    'writing' => 'Writing',
+    'language' => 'Program Language Taught',
+    'degree_gpa' => 'Required GPA (0-100)',
+    'admission_require' => 'Program Requirements',
+    'tuition_fee' => 'Tuition Fee',
+    'year' => 'Yr',
+    'month' => 'Mly',
+    'scholarship' => 'Scholarship amount available for the program',
+    'scholarship_type' => 'Scholarship Type',
+    'scholarship_type_one' => 'In Amount($)',
+    'scholarship_type_two' => 'In Percentage(%)',
+    'currency' => 'Tuition Fee Currency',
+    'bonus' => 'Additional Bonuses',
+    'description' => 'Description',
+    'general_info' => 'Introduction',
+    'admission_eligibility' => 'Program Requirements',
+    'faqs' => 'FAQs',
+    'program_info' => 'Overall Information',
+    'education_level' => 'Required Level',
+    'submission_date' => 'Submission of Applications Dates',
+    'general_requirement' => 'Program Requirements',
+    'que_ans' => 'Question about Programs',
+    'feature_scholarship' => 'Featured Scholarships',
+    'no_scholarship' => 'No scholarships available right now.',
+    'no_program' => 'No programs available right now.',
+    'scholarship_title' => 'Highly Recommended Scholarships. Please fill your data to see your eligibility. Then you can apply to the eligible scholarships.',
+    'create_program' => 'Program created successfully.',
+    'update_program' => 'Program updated successfully.',
+    'edit_programs' => 'Edit Programs',
+    'copy_programs' => 'Copy Programs',
+    'all_scholarships' => 'All Scholarships',
+    'view_review' => 'View Review',
+    'add_review' => 'Your Review',
+    'enter_review' => 'Give feedback',
+    'review' => 'Review',
+    'rate' => 'Rate',
+    'happy_student' => 'Happy students here',
+    'edit' => 'Edit',
+    'copy' => 'Copy',
+    'apply' => 'Apply',
+    'applied' => 'Applied',
+    'accepted' => 'Accepted',
+    'rejected' => 'Rejected',
+    'faq_message' => 'No FAQ`s added right now',
+    'exam_message' => 'Not added',
+    'application_fee' => 'Application Fee',
+];

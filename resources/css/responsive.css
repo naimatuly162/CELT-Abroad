@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 1600px) {
+}
+@media screen and (min-width: 1499px) and (max-width: 1899px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+}
+@media screen and (max-width: 1630px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+}
+
+
+@media screen and (max-width: 1599.98px) {
+    .home-bannerInner {
+        padding-top: 200px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .featured-categorie {
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .listing-img{height: 230px;}
+}
+@media (max-width: 1023.98px) {
+    .home-bannerInner {
+        height: 100% !important ;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 991px) {
+    .menu-part {
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        background: linear-gradient(to bottom, #eef6fa 0%, #ffffff 100%);
+        padding: 15px;
+        padding-top: 65px;
+        right: -100%;
+        top: 0;
+        z-index: 99;
+        transition: all 0.4s ease-in-out;
+    }
+    .nav-bar li {
+        margin-bottom: 10px;
+    }
+    .nav-bar li a {
+        padding: 11px 12px;
+    }
+    .close-menu {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 15px;
+    }
+    .overlay-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+    }
+    .toggle-btn {
+        width: 2rem;
+        margin-left: 20px;
+    }
+    .toggle-btn a {
+        display: block;
+    }
+    .toggle-btn a i {
+        width: 100%;
+        height: 3px;
+        margin: 6px 0;
+        display: block;
+        background: #fff;
+    }
+    .lung-drp .dropdown-toggle {
+        padding: 8px 15px;
+    }
+    .lung-drp .dropdown-toggle span {
+        font-size: 12px;
+    }
+    .lung-drp .dropdown-toggle img {
+        width: 15px;
+        height: 15px;
+    }
+    .nav-bar li a {
+        color: #00207e;
+    }
+    .nav-bar li a.active {
+        background: linear-gradient(to left, #0083f1 0%, #00207e 100%);
+    }
+    .home-banner {
+        height: auto !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 768px) {
+    .menu-row {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .home-form-icon {
+        background-size: 100% 100%;
+        width: 113px;
+        height: 106px;
+        line-height: 105px;
+        top: -45px;
+    }
+    .spacepadding {
+        padding: 45px 0;
+    }
+    .title-section h4,
+    .title-section-2 .title-section h4 {
+        font-size: 26px;
+    }
+    .fc-tab .nav-pills .nav-link {
+        margin: 0 2px;
+    }
+    .form-footer .form-control {
+        padding-left: 50px;
+        text-align: left;
+    }
+    .page-title-content h2 {
+        font-size: 28px;
+    }
+    .clg-details-banner .page-title-content h2 {
+        font-size: 23px;
+    }
+    .page-title-content {
+        padding: 140px 0 100px;
+    }
+    .clg-details-banner .page-title-content {
+        min-height: 300px;
+    }
+    .clg-detail-title {
+        bottom: 40px;
+    }
+    .detail-slider-tab.fc-tab .nav-pills .nav-link {
+        font-size: 13px;
+        padding: 11px 24px;
+    }
+    .list-three-col li {
+        width: 100%;
+        display: block;
+    }
+    .application-row > .row > div {
+        border-left: 0;
+    }
+    .add-button-link {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .slick-slider-nav .slick-slide .image_hover img {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .detail-slider-tab.fc-tab .nav-pills .nav-link {
+        padding: 11px 16px;
+    }
+    .account-right li .myprofile-link span {
+        display: none;
+    }
+    .account-right li .myprofile-link {
+        background: #fff;
+        padding: 0;
+        border-radius: 50%;
+        color: #1649b0;
+        border: 2px solid #1649b0;
+        font-size: 18px;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479px) {
+    .logo-part a {
+        width: 140px;
+    }
+    .logo-part {
+        margin-right: 5px;
+    }
+    .toggle-btn {
+        margin-left: 12px;
+    }
+    .lung-drp .dropdown-toggle {
+        padding: 6px 9px;
+        margin-left: 10px;
+    }
+    .lung-drp .dropdown-toggle span em {
+        display: none;
+    }
+    .home-bannerInner {
+        padding-top: 200px;
+    }
+    .home-form-part {
+        padding: 90px 15px 20px 15px;
+    }
+    .home-form-title p {
+        font-size: 20px;
+    }
+    .home-form-title h2 {
+        font-size: 23px;
+        line-height: 32px;
+        letter-spacing: 0;
+    }
+    .fc-tab .nav-item {
+        width: 100%;
+    }
+    .fc-tab .nav-pills .nav-link {
+        text-align: center;
+    }
+    .listing-category-content {
+        padding: 20px 12px;
+    }
+    .btn-theme,
+    .btn-theme-blue {
+        font-size: 12px;
+    }
+    .footer-link {
+        margin: 40px 0 10px;
+    }
+    .footer-site {
+        padding-bottom: 60px;
+        padding-top: 150px;
+    }
+    .footerbtn {
+        padding: 10px 20px;
+    }
+    .application-col .app-inline {
+        text-align: center;
+    }
+    .application-col img {
+        margin: auto;
+    }
+}
+@media (max-width: 413px) {
+}
+@media (max-width: 359px) {
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+    .nav-bar li a:hover {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1300px) {
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        font-size: 36px;
+        color: #959798;
+        outline: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -8%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        right: -8%;
+    }
+}
+
+@media (max-width: 1399.98px) {
+}

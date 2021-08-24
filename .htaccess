@@ -1,0 +1,13 @@
+AddHandler application/x-httpd-php73 .php .php5 .php4 .php3
+RewriteEngine on
+Options +FollowSymLinks
+RewriteCond %{HTTP_HOST} ^celtabroad\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.celtabroad.com/$1 [R,L]
+#RewriteCond %{HTTP_HOST} ^celtabroad.com$ [NC,OR]
+#RewriteCond %{HTTP_HOST} ^www.celtabroad.com$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} www.celtabroad.com
+RewriteRule (.*) https://celtabroad.com/$1 [R=301,L]
