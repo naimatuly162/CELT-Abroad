@@ -1,4 +1,88 @@
 
- .btn-m {
- background-color: $orange-bgcolor;
+
+header{
+    font-family: Poppins;
+    width: 100%;
+    .nav-m{
+        height: 75px;
+        background: $white-color;
+        box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    }
+    .nav-middle{
+
+        a{
+            @include position();
+            font-weight: 500;
+            font-size:16px;
+            line-height: 24px;
+            color: #444444!important;
+            margin-right: 29px;
+            border-bottom: 2px solid transparent;
+            padding: 24px 0;
+
+             &:hover{
+                 border-bottom: 2px solid $text-color;
+                 color: $text-color;
+             }
+        }
+    }
+    .btn-m{
+        @include position();
+        height: 38px;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        color: $text-color;
+
+        span{
+            color: $blue-color;
+        }
+    }
+    .right-nav{
+        width: 86px;
+        height: 30px;
+
+        i{
+            font-size: 20px;
+        }
+    }
+    h1{
+        @include position();
+        width: 206px;
+        height: 63px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 63px;
+        color: $white-color;
+        margin-bottom: 28px;
+    }
+    .text-white {
+        width: 209px;
+        height: 139px;
+
+        a{
+            width: 204px;
+            height: 48px;
+            background: $text-color;
+            color: $white-color;
+            border-radius: 40px;
+            border: none;
+            i{
+                margin-right: 15px;
+            }
+        }
+    }
+    .nav-bottom{
+    .container .navbar-brand button{
+        border: none;
+        }
+        span ,i{
+            background : $text-color;
+            color: $white-color;
+        }
+
+
+    }
+
 }
+
