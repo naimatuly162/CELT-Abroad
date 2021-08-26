@@ -49,10 +49,8 @@
                                 role="button"
                                 data-mdb-toggle="dropdown"
                                 aria-expanded="false"
-                                style=" border-right: 1px solid rgba(30, 57, 143, 0.2);
-                                margin-right: 33px;"
                             >
-                                <i class="fa fa-bell" style="margin-right: 33px;"></i>
+                                <i class="fa fa-bell"></i>
 {{--                                <span class="badge rounded-pill badge-notification bg-danger">1</span>--}}
                             </a>
                             <!-- Avatar -->
@@ -80,36 +78,31 @@
             </div>
         </div>
     </div>
-
     <!-- Navbar -->
-
     <!-- Background image -->
-    <div
-        class="p-5 text-center bg-image mask"
-        style="
-            height: 269px;
-            background-image:
-            linear-gradient(89.95deg, rgba(238, 113, 0, 0.5) 0.04%, rgba(30, 57, 143, 0.5) 101%),
-            url('{{asset('images/bg-banner.svg')}}');
-            ">
-        <div class="mask">
+    <div class="p-5 text-center bg-image mask">
             <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
+                <div class="text-white justify-content-center align-items-center">
                     <h1 class="mb-3">Institutes</h1>
                     <a class="btn btn-outline-light btn-lg " href="#" role="button"
                     ><i class="fas fa-plus"></i>Add Institute</a
                     >
-                </div>
             </div>
         </div>
     </div>
     <!-- Background image -->
     <div class="navbar nav-bottom navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand">
-                <button type="button" class="btn btn-theme-orange" ><span>Recent</span></button>
-                <button type="button" class="btn btn-default">Old</button>
-            </a>
+            <div class="navbar nav-bottom justify-content-around">
+            <div class="navbar-brand">
+                <input type="radio" class="btn-check" name="options" id="btn-check-outlined" autocomplete="off" checked>
+                <label class="btn btn-theme-orange" for="btn-check-outlined">Recent</label>
+            </div>
+            <div class="navbar-brand">
+                <input type="radio" class="btn-check" name="options" id="btn-check-2-outlined" autocomplete="off">
+                <label class="btn btn-outline-default" for="btn-check-2-outlined">Old</label>
+            </div>
+            </div>
             <form class="d-flex input-group w-auto">
                 <input
                     type="search"
@@ -119,8 +112,8 @@
                     aria-describedby="search-addon"
                 />
                 <span class="input-group-text border-0" id="search-addon">
-        <i class="fas fa-search"></i>
-      </span>
+                <i class="fas fa-search"></i>
+                </span>
             </form>
         </div>
     </div>
