@@ -91,16 +91,19 @@
         </div>
     </div>
     <!-- Background image -->
+
     <div class="navbar nav-bottom navbar-light bg-light">
         <div class="container">
             <div class="navbar nav-bottom justify-content-around">
             <div class="navbar-brand">
-                <input type="radio" class="btn-check" name="options" id="btn-check-outlined" autocomplete="off" checked>
-                <label class="btn btn-theme-orange" for="btn-check-outlined">Recent</label>
-            </div>
-            <div class="navbar-brand">
-                <input type="radio" class="btn-check" name="options" id="btn-check-2-outlined" autocomplete="off">
-                <label class="btn btn-outline-default" for="btn-check-2-outlined">Old</label>
+                <form class="form">
+                    <div class="switch-field">
+                        <input type="radio" id="switch_left" name="switch_2" value="yes" checked/>
+                        <label for="switch_left">Recent</label>
+                        <input type="radio" id="switch_right" name="switch_2" value="no" />
+                        <label for="switch_right">Old</label>
+                    </div>
+                </form>
             </div>
             </div>
             <form class="d-flex input-group w-auto">
