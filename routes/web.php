@@ -17,3 +17,7 @@ use Laravel\Socialite\Facades\Socialite;
 #design_tuly........route ..//
 
 Route::get('rep-institute', 'Front\UniversityController@institute')->name('rep.institute');
+Route::get('/application', 'Front\UniversityController@application')->name('application');
+Route::get('/application/{status}', 'Front\UniversityController@application')->name('application');
+
+

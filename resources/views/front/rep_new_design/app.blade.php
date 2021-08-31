@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="google-signin-client_id" content="662561312805-a4j1tnut5kcah2a3mb6eequbkprasl1p.apps.googleusercontent.com">
+    <meta name="google-signin-client_id"
+          content="662561312805-a4j1tnut5kcah2a3mb6eequbkprasl1p.apps.googleusercontent.com">
     <title>{{ config('app.name') }} - @yield('page-title', 'Welcome')</title>
     <link rel="shortcut icon" href="{{ asset('images/favicon/favicon-16x16.png')}}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">

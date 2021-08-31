@@ -22,12 +22,10 @@ class State extends AbstractTranslatableModel
     {
         return $this->hasMany('App\Model\City', 'id', 'city_id');
     }
-
     public function getImageAttribute($value)
     {
         return asset('storage/state'.'/'.$value);
     }
-
     public function institute()
     {
         return $this->hasMany('App\Model\Institution', 'state_id', 'id');

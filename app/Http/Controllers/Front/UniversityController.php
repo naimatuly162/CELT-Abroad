@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
+use App\Model\Application;
 use App\Model\StateTranslation;
 use Illuminate\Http\Request;
 use App\Contracts\Front\UniversityContract;
@@ -51,6 +52,16 @@ class UniversityController extends Controller
 
         return view('front.rep_new_design.pages.institute');
     }
+    public function application( $status =NULL)
+    {
+        // dd($status);
+        $application = new Application();
+        $application->status = $status;
+        $application->save();
+
+        return view('front.rep_new_design.pages.application');
+    }
+
 
 
 
