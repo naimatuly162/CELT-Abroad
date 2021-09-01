@@ -13,8 +13,8 @@
     <!-- Background image -->
 
     <div class="navbar nav-bottom navbar-light bg-light">
-        <div class="container">
 
+        <div class="container">
             <div class="col-lg-3">
                 <div class="navbar nav-bottom ">
                     <div class="navbar-brand">
@@ -29,25 +29,22 @@
                     </div>
                 </div>
             </div>
-
             <div class=" col-lg-6">
                 <ul class="nav nav-middle nav-tabs">
                     <li class="nav-item">
                         <a class="nav-link" href="#"><span>All(20)</span></a>
                     </li>
-                    @if ($status->status == 'pending')
+
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status)}}">Pending(5)</a>
+                        <a class="nav-link" href="{{route('application', $status='pending')}}">Pending(5)</a>
                     </li>
-                    @elseif($status->status == 'approved')
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status)}}">Approved(2)</a>
+                        <a class="nav-link" href="{{route('application', $status='approve')}}">Approved(2)</a>
                     </li>
-                    @elseif($status->status == 'rejected')
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status)}}">Rejected(5)</a>
+                        <a class="nav-link" href="{{route('application', $status='rejected')}}">Rejected(5)</a>
                     </li>
-                    @endif
+
                 </ul>
             </div>
 

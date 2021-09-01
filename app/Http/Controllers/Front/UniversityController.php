@@ -18,23 +18,18 @@ class UniversityController extends Controller
     {
         $this->universityService = $universityService;
     }
-
     public function index(Request $request)
     {
-
         return $this->universityService->index($request);
     }
-
     public function viewAll()
     {
         return $this->universityService->viewAll();
     }
-
     public function view($university)
     {
         return  $this->universityService->view($university);
     }
-
     public function getUniversity($state, $city = NULL)
     {
         $statename = $state;
@@ -43,27 +38,19 @@ class UniversityController extends Controller
         return $this->universityService->getUniversity($state, $city);
     }
 
-
     ///....design_tuly......//
-
 
     public function institute()
     {
-
         return view('front.rep_new_design.pages.institute');
     }
-    public function application( $status =NULL)
+    public function application($status= NULL)
     {
         // dd($status);
-        $application = new Application();
-        $application->status = $status;
-        $application->save();
-
-        return view('front.rep_new_design.pages.application');
+        // $application = new Application();
+        // $status->status = $status;
+        // $status->save();
+        return view('front.rep_new_design.pages.application' , compact('status'));
     }
-
-
-
-
 
 }

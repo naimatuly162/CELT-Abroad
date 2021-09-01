@@ -1,5 +1,4 @@
 
-
 <div class="container-fluid">
     <div class="container">
         <div class="row">
@@ -15,6 +14,7 @@
                             <li class="list-item">3 years</li>
                         </ul>
                     </div>
+
                     <div class="card-body card-content">
                         <div class="col-md-4">
                             <img src="{{asset('images/Frame-230.svg')}}" class="card-img-bottom" alt="...">
@@ -22,6 +22,7 @@
                                     class="fa fa-paper-plane"></i>Message
                             </button>
                         </div>
+
                         <div class="col-md-8">
                             <h6><b>Jane Cooper</b></h6>
                             <ul>
@@ -63,7 +64,7 @@
                         </div>
                         <div class="col-md-8">
                             <h6><b>Jane Cooper</b></h6>
-                            <ul>
+                                    <ul>
                                 <li class="list-item">London,UK</li>
                                 <li class="list-item">IELTS:07</li>
                                 <li class="list-item">Highest Education
