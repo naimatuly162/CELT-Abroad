@@ -29,42 +29,48 @@
                     </div>
                 </div>
             </div>
+
             <div class=" col-lg-6">
                 <ul class="nav nav-middle nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span>All(20)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status='pending')}}">Pending(5)</a>
+                        <a class="nav-link" href="#">All(20)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status='approve')}}">Approved(2)</a>
+                        <a class="nav-link" href="{{route('application',  'pending')}}">Pending(5)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('application', $status='rejected')}}">Rejected(5)</a>
+                        <a class="nav-link" href="{{route('application',  'approve')}}">Approved(2)</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('application', 'rejected')}}">Rejected(5)</a>
+                    </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3">
-                <form class="d-flex input-group w-auto">
-                    <input
-                        type="search"
-                        class="form-control rounded"
-                        placeholder="Search"
-                        aria-label="Search"
-                        aria-describedby="search-addon"
-                    />
-                    <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search"></i>
-                </span>
+            <div class="col-lg-3 button-filter">
+                <form class="d-flex input-group w-auto" >
+                   <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="collapse" data-target="#dropdown"> <img src="{{asset('images/filter/Vector.svg')}}"
+                       />Filter</button>
                 </form>
+            </div>
+            <div class="col-lg-4">
+                    <div id="dropdown" class="collapse" >
+                                <h6>Filter by Program:</h6>
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary dropdown-toggle" type="button" data-toggle="dropdown">Art and Design
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">Art and Design</a></li>
+                                    </ul>
+                        </div>
+                    </div>
             </div>
 
         </div>
     </div>
-@include('front.rep_new_design.components.allapplication')
+
+    @include('front.rep_new_design.components.allapplication')
 
 @endsection

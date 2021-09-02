@@ -27,7 +27,7 @@
                                 <a class="nav-link" href="{{('rep-institute')}}"><span>Institutes</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Programs</a>
+                                <a class="nav-link" href="{{('programs')}}">Programs</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="{{('application')}}">Applications</a>
