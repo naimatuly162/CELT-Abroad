@@ -8,7 +8,7 @@
     <meta name="google-signin-client_id"
           content="662561312805-a4j1tnut5kcah2a3mb6eequbkprasl1p.apps.googleusercontent.com">
     <title>{{ config('app.name') }} - @yield('page-title', 'Welcome')</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{{--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>--}}
     <link rel="shortcut icon" href="{{ asset('images/favicon/favicon-16x16.png')}}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>

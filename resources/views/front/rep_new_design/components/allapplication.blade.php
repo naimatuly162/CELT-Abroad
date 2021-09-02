@@ -34,7 +34,10 @@
                             </ul>
                         </div>
                     </div>
-                 @include('front.rep_new_design.button.' . $status ?? 'pending')
+                    @php
+                    $view = $status ?? 'pending';
+                    @endphp
+                 @include('front.rep_new_design.button.'.$view )
                 </div>
             </div>
             @endfor

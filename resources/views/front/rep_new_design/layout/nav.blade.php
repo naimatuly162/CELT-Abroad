@@ -24,13 +24,13 @@
                         <!-- Left links -->
                         <ul class="navbar-nav nav-middle me-auto mb-2 mb-lg-0">
                             <li class="nav-item active">
-                                <a class="nav-link" href="{{('rep-institute')}}"><span>Institutes</span></a>
+                                <a class="nav-link" href="{{ route('rep.institute') }}"><span>Institutes</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{('programs')}}">Programs</a>
+                                <a class="nav-link" href="{{ route('programs') }}">Programs</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="{{('application')}}">Applications</a>
+                                <a class="nav-link" href="{{ route('application') }}">Applications</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Students</a>

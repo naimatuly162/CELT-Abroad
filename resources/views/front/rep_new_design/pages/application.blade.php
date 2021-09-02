@@ -1,7 +1,6 @@
 @extends('front.rep_new_design.app')
 
 @section('content')
-
     <!-- Background image -->
     <div class="p-5 text-center bg-image mask">
         <div class="d-flex justify-content-center align-items-center h-100">
@@ -11,7 +10,6 @@
         </div>
     </div>
     <!-- Background image -->
-
     <div class="navbar nav-bottom navbar-light bg-light">
 
         <div class="container">
@@ -45,7 +43,9 @@
                         <a class="nav-link" href="{{route('application', 'rejected')}}">Rejected(5)</a>
                     </li>
                 </ul>
+
             </div>
+
 
             <div class="col-lg-3 button-filter">
                 <form class="d-flex input-group w-auto" >

@@ -9,7 +9,7 @@
             <div class="text-white justify-content-center align-items-center">
                 <h1 class="mb-3">Programs</h1>
                 <a class="btn btn-outline-light btn-lg " href="#" role="button"
-                ><i class="fas fa-plus"></i>Add Institute</a
+                ><i class="fas fa-plus"></i>Add Programs</a
                 >
             </div>
         </div>

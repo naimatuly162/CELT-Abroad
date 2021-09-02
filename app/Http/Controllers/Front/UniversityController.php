@@ -50,6 +50,7 @@ class UniversityController extends Controller
         // $application = new Application();
         // $status->status = $status;
         // $status->save();
+
         return view('front.rep_new_design.pages.application' , compact('status'));
     }
     public function programs()
