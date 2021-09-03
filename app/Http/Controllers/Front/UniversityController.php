@@ -44,6 +44,12 @@ class UniversityController extends Controller
     {
         return view('front.rep_new_design.pages.institute');
     }
+
+    public function addInstitute()
+    {
+        return view('front.rep_new_design.pages.addinstitute');
+    }
+
     public function application($status= NULL)
     {
         // dd($status);

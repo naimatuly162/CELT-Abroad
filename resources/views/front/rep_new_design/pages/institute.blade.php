@@ -6,7 +6,7 @@
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white justify-content-center align-items-center">
                 <h1 class="mb-3">Institutes</h1>
-                <a class="btn btn-outline-light btn-lg " href="#" role="button"
+                <a class="btn btn-outline-light btn-lg " href="{{route('add-institute')}}" role="button"
                 ><i class="fas fa-plus"></i>Add Institute</a
                 >
             </div>
@@ -15,7 +15,7 @@
     <!-- Background image -->
 
     <div class="navbar nav-bottom navbar-light bg-light">
-        <div class="container">
+        <div class="container" style="border-bottom: 1px solid rgba(30, 57, 143, 0.1);">
             <div class="navbar nav-bottom justify-content-around">
                 <div class="navbar-brand">
                     <form class="form">
@@ -28,7 +28,8 @@
                     </form>
                 </div>
             </div>
-            <form class="d-flex input-group w-auto">
+            <div class="col-lg-8 d-flex justify-content-end">
+            <form class="d-flex input-group input-search ">
                 <input
                     type="search"
                     class="form-control rounded"
@@ -40,6 +41,28 @@
                 <i class="fas fa-search"></i>
                 </span>
             </form>
+            <div class="button-filter">
+                <form class="d-flex input-group w-auto" >
+                    <button type="button" onclick="filter()" class="btn btn-outline-primary"> <img src="{{asset('images/filter/Vector.svg')}}"
+                        />Filter</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar panel-bottom nav-bottom navbar-light bg-light" style=" margin-bottom: 32px;">
+    <div class="container d-flex justify-content-end">
+        <div class="navbar panel-default nav-bottom">
+            <div class="input-group" id="inputGroupSelect02">
+                <h6>Filter by Program: </h6>
+                <select class="custom-select" >
+                    <option selected></option>
+                    <option value="1">USA</option>
+                    <option value="2">CANADA</option>
+                    <option value="3">UK</option>
+                </select>
+            </div>
+        </div>
         </div>
     </div>
 
@@ -138,6 +161,20 @@
             </nav>
         </div>
     </div>
+
+    <script>
+        function filter() {
+
+            var x = document.getElementById("inputGroupSelect02");
+
+            if (x.style.display === "none") {
+                x.style.display = "flex";
+
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 
 @endsection
 
